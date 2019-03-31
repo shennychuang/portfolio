@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HOME</title>
+  </head>
+  <style>
+      body {
+          color: hotpink;
+          background-color: black;
+          font-family: "Santa Fe LET";
+          margin: 0px;
+          padding: 0;
+
+      }
+      .container {
+          width: 850px;
+          margin: 100px auto 0;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+      }
+      .container .box
+      {
+          position: relative;
+          width: 250px;
+          height: 250px;
+          background: deeppink;
+          margin: 15px;
+          box-sizing: border-box;
+          display: inline-block;
+      }
+      .container .box .imgBox
+      {
+          position: relative;
+          overflow: hidden;
+      }
+      .container .box .imgBox img
+      {
+          max-width: 100%;
+          transition: transform 2s; 
+      }
+      .container .box .details
+      {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          bottom: 10px;
+          right: 10px;
+          background: black;
+          opacity: 0.75;
+          transform: scaleY(0);
+          transition: transform .5s;
+      }
+      .container .box:hover .details
+      {
+          transform: scaleY(1);
+      }
+      .container .box .details .content
+      {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          text-align: center;
+          padding: 15px;
+          color: white;
+      }
+      .container .box .details .content h2
+      {
+          margin: 0;
+          padding: 0;
+          font-size: 20px;
+          color: white;
+      }
+      .container .box .details .content p
+      {
+          margin: 10px 0 0;
+          padding: 0;
+      }
+      a:link {
+          text-decoration: none;
+          color: deeppink;
+      }
+       .text {
+          font-size: 110pt;
+          color: #484848;
+          text-align: center;
+          font-family: "Santa Fe LET";
+          animation: animate 1s infinite linear;
+      }
+      @keyframes animate
+      {
+          0% {
+              color: #484848;
+              text-shadow: none;
+          }
+          18% {
+              color: #484848;
+              text-shadow: none;
+          }
+          20% {
+              color: deeppink;
+              text-shadow: 0 0 7px rgb(255, 99, 71) , 0 0 20px #ff6347;
+          }
+          30% {
+              color: #484848;
+              text-shadow: none;
+          }
+          35% {
+              color: #484848;
+              text-shadow: none;
+          }
+          40% {
+              color: deeppink;
+              text-shadow: 0 0 7px rgb(255, 99, 71) , 0 0 20px #ff6347;
+          }
+          
+  </style>
+    <body>
+        <div class="text"><br>Shenny Chuang</div>
+        <div class="container">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="pinkcatalog/allhtml.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>All HTML</h2>
+                        <p>An exploration of different codes by using just html.<br><br><a href="ALL-HTML/index1.html">Learn more!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+            <div class="imgBox">
+                    <img src="pinkcatalog/25variations.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>25 Variations</h2>
+                        <p>Create different kinds of compositions of a poem by using html and css.<br><br><a href="25Variations/navigation25.html">Learn more!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+            <div class="imgBox">
+                    <img src="pinkcatalog/observationjournal.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>Observation Journal</h2>
+                        <p>A journal that recorded all the interesting and appealing design ideas surround.<br><br><a href="https://www.instagram.com/observationjournalbys/">Learn more!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+            <div class="imgBox">
+                    <img src="pinkcatalog/self.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>Self</h2>
+                        <p>A reflection on how myself can be seen from the way I use Snapchat.<br><br><a href="self.html">Learn more!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+            <div class="imgBox">
+                    <img src="pinkcatalog/ereader.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>E-reader</h2>
+                        <p>Expressing the main idea of the article by designing the layout and the composition.<br><br><a href="ereader.html">Learn more!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+            <div class="imgBox">
+                    <img src="pinkcatalog/readingres.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>Reading Response</h2>
+                        <p>A short, creative analysis of the reading by using html and css.<br><br><a href="readingresponse">Learn more!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+            <div class="imgBox">
+                    <img src="pinkcatalog/animation.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>CSS Animation</h2>
+                        <p>An exploration of different kinds of animation effects by using html and css.<br><br><a href="CSSanimations/animation1.html">Learn more!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+            <div class="imgBox">
+                    <img src="pinkcatalog/hover.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>Hover States</h2>
+                        <p>An exploration of different hover effects by using html and css.<br><br><a href="hoverstates/hover1.html">Learn more!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+            <div class="imgBox">
+                    <img src="pinkcatalog/responsivepage.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>Responsive Page</h2>
+                        <p>An exploration of different kinds of responsive effects by using html and css.<br><br><a href="responsive.html">Learn more!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+            <div class="imgBox">
+                    <img src="pinkcatalog/stilllife.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>Still Life</h2>
+                        <p>An exploration of how divs and poisoning can be used to create an image.<br><br><a href="stilllife.html">Learn more!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+            <div class="imgBox">
+                    <img src="pinkcatalog/homemadecode.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>Homemade Code</h2>
+                        <p>Creatively thinking of how coding can be seen from the reality.<br><br><a href="homemadecode.jpg">Learn more!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+            <div class="imgBox">
+                    <img src="pinkcatalog/abstractcompo.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>Abstract Composition</h2>
+                        <p>Creating a color composition by using divs.<br><br><a href="abstractcomposition.html">Learn more!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+            <div class="imgBox">
+                    <img src="pinkcatalog/calendar.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>CSS Calendar</h2>
+                        <p>Creating a canlendar of October using CSS and html.<br><br><a href="calender.html">Learn more!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+            <div class="imgBox">
+                    <img src="pinkcatalog/readingonline.jpg">
+                </div>
+                <div class="details">
+                    <div class="content">
+                        <h2>Reading Online</h2>
+                        <p>Read and analysis the CSS features contained in the webpage.<br><br><a href="readingonline.html">Learn more!</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br><br><br><br><br><br>
+       
+       
+    </body>
+</html>
